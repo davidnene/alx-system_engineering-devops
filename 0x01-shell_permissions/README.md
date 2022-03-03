@@ -10,5 +10,6 @@ Shell permissions project
 9 chmod 753 hello changes the file hello mode to -rwxr-x-wx
 
 
-
+12 mkdir -m 751 my_dir creates a directory called my_dir with permissions 751 in the working directory
 13 chown :school hello changes the group owner to school for the file hello
+
