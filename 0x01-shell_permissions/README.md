@@ -8,3 +8,7 @@ Shell permissions project
 7 chmod +x hello adds execution permissions to owner, groups and others, to the file hello
 8 chmod 007 hello restricts all permissions to owner and group and gives all permssions to others, to the file hello
 9 chmod 753 hello changes the file hello mode to -rwxr-x-wx
+
+
+
+13 chown :school hello changes the group owner to school for the file hello
