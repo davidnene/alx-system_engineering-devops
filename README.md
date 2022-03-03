@@ -1,1 +1,1 @@
-This is a shell basics project
+This repo contains alx software engineering projects
