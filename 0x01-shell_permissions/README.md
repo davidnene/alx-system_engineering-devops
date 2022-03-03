@@ -7,3 +7,4 @@ Shell permissions project
 5 chmod u+x hello gives the owner of the file hello execute permissions
 7 chmod +x hello adds execution permissions to owner, groups and others, to the file hello
 8 chmod 007 hello restricts all permissions to owner and group and gives all permssions to others, to the file hello
+9 chmod 753 hello changes the file hello mode to -rwxr-x-wx
