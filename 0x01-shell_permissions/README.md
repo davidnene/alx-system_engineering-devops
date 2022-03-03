@@ -9,7 +9,9 @@ Shell permissions project
 8 chmod 007 hello restricts all permissions to owner and group and gives all permssions to others, to the file hello
 9 chmod 753 hello changes the file hello mode to -rwxr-x-wx
 
-
+11 chmod -R ugo+X* adds execute permission to all subdirectories of the current directory for the owner, 
+   the group owner and all other users. Regular files should not be changed
 12 mkdir -m 751 my_dir creates a directory called my_dir with permissions 751 in the working directory
 13 chown :school hello changes the group owner to school for the file hello
+
 
